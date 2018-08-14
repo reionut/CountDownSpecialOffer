@@ -1,0 +1,72 @@
+/* === CountDown Body Style === */
+.offerWatch-hidden {
+  display: none;
+  /* CountDown hidden */
+}
+
+.offerWatch-fixed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #f65;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 100;
+  /* === Heading Style ===*/
+}
+.offerWatch-fixed h3 {
+  text-align: center;
+  margin: 30px;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+/* === CountDown Style === */
+#countDown {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* === Button Style === */
+.getOfferBtn {
+  background-color: #000;
+  margin: 30px;
+  padding: 14px 40px;
+  border-radius: 4px;
+  border: none;
+  transition: 1s;
+  opacity: 0.6;
+  font-size: 1.5rem;
+}
+.getOfferBtn:hover {
+  opacity: 1;
+}
+.getOfferBtn a {
+  text-decoration: none;
+  color: #fff;
+  white-space: nowrap;
+}
+
+#buttonClose {
+  border: none;
+  background: transparent;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .offerWatch-fixed {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
