@@ -18,7 +18,7 @@ document.getElementById('buttonClose').addEventListener('click', function(){
 
 // ======= Set the date we're counting down to here =======
 
-var countDownDate = new Date('Aug 16, 2018 00:00:00').getTime(); 
+var countDownDate = new Date('Dec 31, 2018 00:00:00').getTime(); 
 
 // Update the count down every 1 second
 var x = setInterval(function() {
