@@ -16,7 +16,7 @@ document.getElementById('buttonClose').addEventListener('click', function(){
 
 // CountDown Clock
 
-// ======= Set the date we're counting down to here =======
+// ======= Set countdown date here =======
 
 var countDownDate = new Date('Dec 31, 2018 00:00:00').getTime(); 
 
